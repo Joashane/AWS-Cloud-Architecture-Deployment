@@ -1,7 +1,7 @@
 # AWS Cloud Architecture Deployment
 
 ## Architecture Overview
-This Terraform configuration sets up a cloud infrastructure on AWS, focusing on creating a scalable and secure environment for an application. The architecture includes:
+This Terraform configuration sets up a cloud infrastructure in AWS, focusing on creating a scalable and secure environment for an application. The architecture includes:
 
 - **VPC and Subnets**: The VPC is created with a specified CIDR block, and subnets are created within this VPC, each in a different availability zone. This setup ensures high availability and fault tolerance.
 
@@ -22,7 +22,7 @@ This Terraform configuration sets up a cloud infrastructure on AWS, focusing on 
 
 ## Workflow
 
-This workflow illustrates how a user interacts with a web application, which in turn interacts with AWS infrastructure managed by Terraform. The infrastructure setup includes components like VPC, subnets, EC2 instances, RDS instances, S3 buckets, and IAM roles, all of which are essential for hosting, processing, and analyzing user data in a scalable and secure manner.
+This workflow illustrates how a user interacts with a web application, which in turn interacts with the AWS infrastructure managed by Terraform. The infrastructure setup includes components like VPC, subnets, EC2 instances, RDS instances, S3 buckets, and IAM roles, all of which are essential for hosting, processing, and analyzing user data in a scalable and secure manner.
 
 ![Workflow of the Infrastructure png 50%](https://github.com/Joashane/AWS-Cloud-Architecture-Deployment/assets/156240544/8d7bc7cb-b2ec-4c35-8cd7-c488f73f3072)
 
